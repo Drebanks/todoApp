@@ -133,7 +133,7 @@ const Home = () => {
               <li
                 key={todo.id}
                 className={`p-4 border border-blue dark:border-white flex justify-between items-center ${
-                  todo.completed ? "line-through text-white" : ""
+                  todo.completed ? "line-through text-black" : ""
                 }`}
                 onClick={() => toggleTodo(todo.id)}
                 onContextMenu={(e) => {
@@ -144,7 +144,7 @@ const Home = () => {
                 {editingId === todo.id ? (
                   <input
                     type="text"
-                    className="shadow border-blue rounded py-2 px-3 text-gray dark:text-gray dark:bg-white leading-tight focus:outline-none focus:shadow-outline"
+                    className="shadow border-blue rounded py-2 px-3 bg-gray  text-darkGrey dark:text-gray dark:bg-white leading-tight focus:outline-none focus:shadow-outline"
                     value={editingText}
                     onChange={(e) => setEditingText(e.target.value)}
                     onBlur={() => {
