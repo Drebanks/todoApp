@@ -185,7 +185,7 @@ const Home = () => {
               className={`px-4 py-2 rounded ${
                 filter === "all"
                   ? "bg-blue text-white"
-                  : "bg-gray dark:bg-gray text-gray dark:text-white"
+                  : "bg-gray dark:bg-gray text-white dark:text-white"
               }`}
               onClick={() => setFilter("all")}
             >
