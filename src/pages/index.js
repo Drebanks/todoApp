@@ -1,6 +1,5 @@
 "use client";
 import TodoStore from "@/zustand/todoStore";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const Home = () => {
@@ -77,7 +76,7 @@ const Home = () => {
             </h1>
           </div>
           <div className="flex gap-x-10 md:mt-3 md:flex-col">
-            <p className="text-black text-sm font-normal">Today's Date</p>
+            <p className="text-black text-sm font-normal">Today&apos;s Date</p>
             <p className="text-blue text-sm font-normal">{currentDate}</p>
             <p className="text-blue text-sm font-normal">{currentTime}</p>
           </div>
