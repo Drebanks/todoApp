@@ -8,14 +8,13 @@ module.exports = {
   theme: {
     screens: {
       sm: { max: "600px" },
-      // md: '768px',
+      xs: { max: "400px" },
       md: { max: "768px" },
       lg: { max: "1024px" },
       xl: { max: "1280px" },
-      // lg: '976px',
     },  
     colors: {
-      pink: "#f6f1fb",
+      black: "#000000",
       white: "#FFFFFF",
       darkGrey: "#b1b4c4",
       gray: "#757575",

@@ -22,28 +22,20 @@
     margin:0;
     box-sizing: border-box;
 }
+
+
 body{
     background: #fff;
 }
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
-form{
+/* form{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
    
-}
+} */
 
-
-input{
-    font-size: 2rem;
-    display: block;
-    color:#765;
-    width: 100%;
-    padding: 1rem 2rem;
-}
-
-.input::placeholder{
-    color: #d5d5d5;
-}
