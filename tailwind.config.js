@@ -6,6 +6,14 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: { max: "600px" },
+      // md: '768px',
+      md: { max: "768px" },
+      lg: { max: "1024px" },
+      xl: { max: "1280px" },
+      // lg: '976px',
+    },  
     colors: {
       pink: "#f6f1fb",
       white: "#FFFFFF",

@@ -69,15 +69,15 @@ const Home = () => {
 
   return (
     <>
-      <div className="bg-white flex items-center flex-col max-w-full min-h-screen py-10">
-        <div className="flex justify-between items-center w-1/2 mt-12">
+      <div className="bg-white flex items-center flex-col max-w-full min-h-screen py-10 md:px-3">
+        <div className="flex justify-between items-center w-1/2 mt-12 md:flex-col md:w-full">
           <div>
             <h1 className="text-pink text-4xl font-bold">Todos</h1>
           </div>
-          <div className="flex gap-x-10 text-right">
+          <div className="flex gap-x-10 md:mt-3 md:flex md:flex-col">
             <span className="">Today&apos;s Date</span>
             <span className="text-blue">{currentDate}</span>
-            <span id="time" className="">
+            <span className="">
               {currentTime}
             </span>
           </div>
@@ -87,7 +87,7 @@ const Home = () => {
         <br />
         <form
           onSubmit={editingId ? handleEditTodo : handleAddTodo}
-          className="w-1/2 shadow-md rounded px-8 pt-6 pb-8 mb-4"
+          className="w-1/2 shadow-md rounded px-8 pt-6 pb-8 mb-4 md:w-full"
         >
           <div className="mb-4">
             <input
