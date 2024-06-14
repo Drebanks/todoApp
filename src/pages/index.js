@@ -75,7 +75,7 @@ const Home = () => {
             <h1 className="text-pink text-4xl font-bold">Todos</h1>
           </div>
           <div className="flex gap-x-10 text-right">
-            <span className="">Today's Date</span>
+            <span className="">Today&apos;s Date</span>
             <span className="text-blue">{currentDate}</span>
             <span id="time" className="">
               {currentTime}
@@ -166,9 +166,7 @@ const Home = () => {
         <div className="flex mt-4 space-x-4">
           <button
             className={`px-4 py-2 rounded ${
-              filter === "all"
-                ? "bg-blue text-white"
-                : "bg-gray text-white"
+              filter === "all" ? "bg-blue text-white" : "bg-gray text-white"
             }`}
             onClick={() => setFilter("all")}
           >
