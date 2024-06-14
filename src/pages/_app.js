@@ -4,7 +4,7 @@ import { DarkModeProvider } from './../context/darkMode';
 export default function App({ Component, pageProps }) {
   return (
     <DarkModeProvider>
-  <Component {...pageProps} />
+      <Component {...pageProps} />
     </DarkModeProvider>
 ) 
 

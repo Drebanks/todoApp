@@ -24,18 +24,10 @@
 }
 
 
-body{
-    /* background: #fff; */
-}
-
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
-/* form{
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-   
-} */
+
 
